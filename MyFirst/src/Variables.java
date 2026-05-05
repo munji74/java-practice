@@ -10,6 +10,12 @@ public class Variables {
         boolean married = false;
 
 
-        System.out.println("Hello" + " " + name + " " + "you are a " + age + " years old " + gender + "." + " You earn $" + salary + "You are " + married);
+        System.out.println("Hello" + " " + name + " " + "you are a " + age + " years old " + gender + "." + " You earn $" + salary);
+
+        if (married){
+            System.out.println("You are married");
+        } else{
+            System.out.println("You are not married");
+        }
     }
 }
