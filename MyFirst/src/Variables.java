@@ -14,7 +14,8 @@ public class Variables {
 
         if (married){
             System.out.println("You are married");
-        } else{
+        }
+        else{
             System.out.println("You are not married");
         }
     }
