@@ -1,41 +1,43 @@
 import java.util.Scanner;
 
-public class Madlibs {
+public class MadLibs {
     public static void main(String[] args){
+        System.out.println("Welcome to madlibs-----------------------------------------------------------------");
+
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Noun: ");
+        System.out.print("Noun: ");
         String noun = scanner.nextLine();
-        System.out.println("Plural Noun: ");
+        System.out.print("Plural Noun: ");
         String noun2 = scanner.nextLine();
 
-        System.out.println("Verb: ");
+        System.out.print("Verb: ");
         String verb = scanner.nextLine();
 
-        System.out.println("Verb(Past tense): ");
+        System.out.print("Verb(Past tense): ");
         String verb2 = scanner.nextLine();
-        System.out.println("Verb ending in ing: ");
+        System.out.print("Verb ending in ing: ");
         String verb3 = scanner.nextLine();
 
 
-        System.out.println("Adjective: ");
+        System.out.print("Adjective: ");
         String adjective = scanner.nextLine();
-        System.out.println("Adjective: ");
+        System.out.print("Adjective: ");
         String adjective2 = scanner.nextLine();
 
-        System.out.println("Type of bird: ");
+        System.out.print("Type of bird: ");
         String typeofbird = scanner.nextLine();
 
-        System.out.println("Room: ");
+        System.out.print("Room: ");
         String room = scanner.nextLine();
 
-        System.out.println("Name of relative: ");
+        System.out.print("Name of relative: ");
         String relative = scanner.nextLine();
 
-        System.out.println("Name of Liquid: ");
+        System.out.print("Name of Liquid: ");
         String liquid = scanner.nextLine();
 
-        System.out.println("Body Part: ");
+        System.out.print("Body Part: ");
         String bodyPart = scanner.nextLine();
 
         scanner.close();
@@ -47,6 +49,7 @@ public class Madlibs {
                 liquid + " into the " + verb3 + " room. When I got there,  couldn't believe my " + bodyPart + "! There were " + noun2 + " " +
                 verb3 + " on the " + noun + ".");
 
-
+        System.out.println("-------------------------------------------------------------------------------------------");
+        System.out.println("Thank you for playing");
     }
 }
