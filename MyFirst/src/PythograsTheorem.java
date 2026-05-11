@@ -19,6 +19,7 @@ public class PythograsTheorem {
 
         System.out.println(c);
 
+        scanner.close();
 
 
 
