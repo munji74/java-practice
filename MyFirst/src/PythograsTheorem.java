@@ -13,7 +13,11 @@ public class PythograsTheorem {
         System.out.println("Enter side B: ");
         b = scanner.nextDouble();
 
-        
+        System.out.println(a + " " + b);
+
+        c = Math.pow(a, 2)  + Math.pow(b, 2);
+
+        System.out.println(c);
 
 
 
