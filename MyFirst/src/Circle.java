@@ -10,7 +10,13 @@ public class Circle {
         System.out.println("Enter radius: ");
         radius = scanner.nextDouble();
 
-        System.out.println(radius);
+        double area =  Math.PI * Math.pow(radius, 2);
+        double Circumference = 2 * Math.PI * radius;
+        double volume = (4.0/3.0) * Math.PI * Math.pow(radius, 3);
+
+        System.out.println("Radius: " + radius.2f + " cm");
+        System.out.println("Circumference: " + Circumference + " cm");
+        System.out.println("Volume: " + volume + " cm");
         scanner.close();
     }
 }
