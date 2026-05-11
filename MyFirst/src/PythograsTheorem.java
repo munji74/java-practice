@@ -13,9 +13,9 @@ public class PythograsTheorem {
         System.out.println("Enter side B: ");
         b = scanner.nextDouble();
 
-        System.out.println(a + " " + b);
+//        System.out.println(a + " " + b);
 
-        c = Math.pow(a, 2)  + Math.pow(b, 2);
+        c = Math.sqrt(Math.pow(a, 2)  + Math.pow(b, 2));
 
         System.out.println(c);
 
