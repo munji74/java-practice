@@ -17,6 +17,10 @@ public class Circle {
         System.out.println("Radius: " + radius + " cm");
         System.out.println("Circumference: " + Circumference + " cm");
         System.out.println("Volume: " + volume + " cm");
+
+        System.out.printf("Radius: %.2fcm\n", radius);
+        System.out.printf("Circumference: %.2fcm²\n", Circumference);
+        System.out.printf("Volume: %.2fcm³\n", volume);
         scanner.close();
     }
 }
