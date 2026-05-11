@@ -14,7 +14,7 @@ public class Circle {
         double Circumference = 2 * Math.PI * radius;
         double volume = (4.0/3.0) * Math.PI * Math.pow(radius, 3);
 
-        System.out.println("Radius: " + radius.2f + " cm");
+        System.out.println("Radius: " + radius + " cm");
         System.out.println("Circumference: " + Circumference + " cm");
         System.out.println("Volume: " + volume + " cm");
         scanner.close();
