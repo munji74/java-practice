@@ -22,10 +22,10 @@ public class ShoppingCart {
 
         if(quantity >0){
             if (quantity==1){
-                System.out.printf("1 %s costs $%.2f", item1, price );
+                System.out.printf("1 %s costs $%.2f", item1, total );
 
             }else {
-                System.out.printf("%d of %s cost $%.2f", quantity, item1, price );
+                System.out.printf("%d of %s cost $%.2f", quantity, item1, total );
             }
         }else{
             System.out.println("Invalid quantity");
