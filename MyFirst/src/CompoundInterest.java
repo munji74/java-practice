@@ -18,13 +18,11 @@ public class CompoundInterest {
         System.out.print("Enter number of years: ");
         years = scanner.nextInt();
         System.out.print("Enter interest rate: ");
-        interestRate = scanner.nextDouble();
+        interestRate = scanner.nextDouble()/ 100.0;
 //        System.out.print("Enter principal: ");
 //        principal = scanner.nextDouble();
 
-        interestRate = interestRate / 100.0;
-
-        totalAmount = principal*(1 + Math.pow(interestRate /1, years));
+        totalAmount = principal*(1 + Math.pow(interestRate, years));
 
 //        System.out.printf("Your final Interest Amount is: %.2f%n", interestAmount);
 
