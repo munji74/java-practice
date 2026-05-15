@@ -7,7 +7,7 @@ public class TernaryOperator {
         String color = scanner.nextLine().toUpperCase();
 
 
-        String colorChoice = (color == "RED") ? "Win":"Loss";
+        String colorChoice = (color.equals("RED")) ? "Win":"Loss";
 
         System.out.print(colorChoice);
 
